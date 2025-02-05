@@ -1,2 +1,2 @@
-# bdrelacionales
-Base de datos relacionales
+# Uriel Rodriguez Rojo
+4AVP
