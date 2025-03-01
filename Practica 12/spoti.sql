@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 25-02-2025 a las 02:21:54
+-- Tiempo de generación: 01-03-2025 a las 02:19:39
 -- Versión del servidor: 10.1.39-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -100,9 +100,9 @@ CREATE TABLE `canciones` (
 --
 
 INSERT INTO `canciones` (`id`, `Nombre`, `genero_id`, `duracion`, `fecha`, `activo`, `foto`) VALUES
-(1, 'Cpp', 1, '00:08:12', '2025-02-28', 1, 'xdd'),
+(1, 'cc5', 1, '00:08:12', '2025-02-28', 1, 'xdd'),
 (2, 'El profesor Rochin', 3, '00:03:20', '2000-09-23', 1, 'no tiene xd'),
-(3, 'Cpriel', 2, '00:02:00', '2024-12-12', 2, 'XD'),
+(3, 'story of undertale', 2, '00:02:00', '2024-12-12', 2, 'XD'),
 (4, '090', 11, '00:01:15', '2012-09-11', 5, 'zZZ'),
 (5, 'CEXAR', 9, '00:01:15', '2025-07-28', 3, 'DKHDAHKSHJ'),
 (6, 'IBARRAysuhija', 10, '00:09:23', '2012-09-11', 4, 'hdsuidui'),
@@ -180,7 +180,7 @@ INSERT INTO `membresias` (`id`, `descripcion`, `precio`) VALUES
 (3, 'semipobre', 150),
 (4, 'Altapa', 200),
 (5, 'Pirata', 100),
-(6, 'luissoto', 400);
+(6, 'ohio', 400);
 
 -- --------------------------------------------------------
 
@@ -204,10 +204,10 @@ CREATE TABLE `playlist` (
 
 INSERT INTO `playlist` (`id`, `Nombre`, `usuario_id`, `duracion`, `totalcanciones`, `descripcion`, `publico`) VALUES
 (1, 'loki', 1, '00:28:15', 30, 'xd', 1),
-(2, 'ibarra', 2, '94:00:06', 99, 'xd', 6),
-(3, 'luis', 3, '00:09:23', 12, 'n ', 0),
-(4, 'xd', 4, '00:05:00', 54, 'fdsfffgfgjkjfik', 4),
-(5, 'tia paola', 5, '00:01:15', 2, 'sasassssssss', 7);
+(2, 'ibarra', 2, '94:00:06', 30, 'xd', 6),
+(3, 'king_pantera', 3, '00:09:23', 12, 'n ', 0),
+(4, 'cc1', 4, '00:05:00', 3, 'fdsfffgfgjkjfik', 4),
+(5, 'tia_paola', 5, '00:01:15', 2, 'sasassssssss', 7);
 
 -- --------------------------------------------------------
 
@@ -254,10 +254,9 @@ INSERT INTO `usuarios` (`id`, `Nombre`, `correo`, `membresias_id`) VALUES
 (1, 'osman', 'osman.quiñonez23@cetis107.edu.mx', 2),
 (2, 'Soto', 'luis.nunez23@cetis107.edu.mx', 6),
 (3, 'Rochin', 'francisco.rochin@cetis107.edu.mx', 5),
-(4, 'cpriel', 'storiel@gmail.com', 3),
-(5, 'luisnuñez', 'sy@xdd', 4),
-(6, 'Uriel', 'uriel.rodriguez23@ceis107.edu.mx', 4),
-(7, 'Uriel', 'uriel.rodriguez23@ceis107.edu.mx', 4);
+(4, 'frisk', 'storiel@gmail.com', 3),
+(5, 'luisnunez', 'luisnunes@gmail.com', 4),
+(6, 'Uriel', 'uriel.rodriguez23@ceis107.edu.mx', 4);
 
 --
 -- Índices para tablas volcadas
